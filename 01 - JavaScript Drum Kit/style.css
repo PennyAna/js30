@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
-  background: url('./background.jpg') bottom center;
+  background: url('./wood_background.jpg') bottom center; 
+  /*https://www.barnfurnituremart.com/images/D/BFJADBP4818CK2_AP6.jpg*/
   background-size: cover;
 }
 
@@ -19,16 +20,16 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
-  border-radius: .5rem;
+  border: .4rem solid goldenrod;
+  border-radius: 10rem;
   margin: 1rem;
   font-size: 1.5rem;
-  padding: 1rem .5rem;
+  padding: 2rem .7rem;
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
+  color: gold;
+  background: url('./wood_background.jpg') rgba(158, 74, 6, 0.4);
   text-shadow: 0 0 .5rem black;
 }
 
@@ -47,5 +48,5 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: goldenrod;
 }
